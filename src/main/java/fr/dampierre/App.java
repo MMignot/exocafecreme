@@ -36,6 +36,7 @@ public class App {
         int somme = valeurPieces1 + valeurPieces5 + valeurPieces10 + valeurPieces20 + valeurPieces50;
         int manque = somme - total;
         int reste = somme - total;
+        
         if (somme == total) {
             System.out.println("Vous avez exactement de quoi vous payer le café-crème !");
         }
