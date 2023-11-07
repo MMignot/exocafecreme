@@ -36,7 +36,7 @@ public class App {
         int somme = valeurPieces1 + valeurPieces5 + valeurPieces10 + valeurPieces20 + valeurPieces50;
         int manque = somme - total;
         int reste = somme - total;
-        
+
         if (somme == total) {
             System.out.println("Vous avez exactement de quoi vous payer le café-crème !");
         }
@@ -44,7 +44,7 @@ public class App {
                 System.out.println("Il vous manque " + Math.abs(manque) + " centimes pour le café-crème !");
             }
             else {
-                System.out.println("Il vous restere " + reste + " centimes après votre café-crème !");
+                System.out.println("Il vous restera " + reste + " centimes après votre café-crème !");
         }
     }
 }
